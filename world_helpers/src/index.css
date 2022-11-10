@@ -31,6 +31,44 @@ body {
   height: 340px;
   margin-top: 100px;
   margin-left: 25px;
+}.ceil_img{
+  width: 170px;
+}.flex Box{
+  display: flex;
+    margin-left: 10px;
+
+}.footer{
+  background-color: black;
+}#footer_top{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    row-gap: 20px;
+    border-bottom: 1px solid gray;
+}.text{
+  font-weight: 500;
+  color: darkgray;
+}
+.text:hover{
+    border-bottom: 1px solid darkgrey;
+    cursor: pointer;
+}.txt{
+   color: darkgray;
+   
+   font-weight: 400;
+}
+.txt:hover{
+  color: aliceblue;
+  cursor: pointer;
+}#grid_foot{
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  
+}.tit{
+  color: darkgray;
+  font-weight: 400;
+}.tit:hover{
+  color: aliceblue;
+  cursor: pointer;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -1,5 +1,7 @@
 import Navbar from "../Components/Navbar";
 import { Box, Flex, Stack ,Text,Select} from "@chakra-ui/react"
+import Footer from "./PageComponents/Footer";
+import Homebottom from "./PageComponents/Homebottom";
 function Home(){
 
     return(
@@ -72,14 +74,16 @@ function Home(){
 </Box>
 </Box>
 
-<Box className="gray" backgroundColor={"gray.300"} borderRadius="10px">
-<Box><img backgroundColor="gray" src="https://th.bing.com/th/id/OIP.EQvlxSL685QN6E9D_oGvzgAAAA?pid=ImgDet&w=163&h=163&c=7&dpr=1.5" alt="" /></Box>
-<Box></Box>
+<Box className="gray" backgroundColor={"gray.100"} borderRadius="10px">
+<Box><img backgroundColor="gray" className="ceil_img" src="https://th.bing.com/th/id/OIP.EQvlxSL685QN6E9D_oGvzgAAAA?pid=ImgDet&w=163&h=163&c=7&dpr=1.5" alt="" /></Box><br />
+<Box><Text fontSize={"4xl"} fontWeight="semibold">100% Quality Assured</Text><Text fontSize={"2xl"} color="darkgray">If you don't love our service, we will make it right.</Text></Box>
 </Box>
 
 </Flex>
 
         </div>
+        <Homebottom/>
+        <Footer/>
         </div>
     )
 }
