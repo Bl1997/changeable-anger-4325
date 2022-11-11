@@ -66,6 +66,7 @@ body {
 }.tit{
   color: darkgray;
   font-weight: 400;
+ text-align: left;
 }.tit:hover{
   color: aliceblue;
   cursor: pointer;
