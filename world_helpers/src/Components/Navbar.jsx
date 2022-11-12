@@ -15,7 +15,7 @@ return(
       
        <Box color={"white"} padding="15px" fontSize={"18"} fontWeight="semibold" > <Link to="/register">Register As A Professional</Link></Box>
        
-        <Box marginRight="50px" color={"white"} padding="15px" fontSize={"18"} fontWeight="semibold"><Link to="/singUp">SignUp</Link></Box>
+        <Box marginRight="50px" color={"white"} padding="15px" fontSize={"18"} fontWeight="semibold"><Link to="/signUp">SignUp</Link></Box>
     
         </Flex>
  
