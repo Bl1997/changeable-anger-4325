@@ -1,5 +1,5 @@
 import Navbar from "../Components/Navbar";
-import { Box, Flex, Stack ,Text,Select} from "@chakra-ui/react"
+import { Box, Flex, Stack ,Text,Select, FormControl} from "@chakra-ui/react"
 import Footer from "./PageComponents/Footer";
 import Homebottom from "./PageComponents/Homebottom";
 function Home(){
@@ -26,6 +26,10 @@ function Home(){
 <Box backgroundColor={"white"} width={"300px"} height="120px" marginLeft={"150px"} borderRadius="5px" marginTop={"25px"}>
 
 <label ><Text fontWeight={"semibold"} fontSize="xl" marginBottom={"20px"}> Where do you need a service? </Text></label>
+
+
+<FormControl>
+
 <Select placeholder='Select Your City' fontWeight={"semibold"}>
   <option value='ind'  disabled={"true"} fontWeight="semibold"> INDIA</option>
   <option value='alw'>Alwar</option>
@@ -47,7 +51,7 @@ function Home(){
   <option value={"varanshi"}>Varanshi</option>
 
 </Select>
-
+</FormControl>
 </Box>
 </Box>
 </Flex>

@@ -5,7 +5,7 @@ function Footer(){
 
     return(
         <div className="footer">
-            <h1>Footer page</h1>
+            
         
                 <div id="footer_top">
             <Text className="text"  >About Us</Text>

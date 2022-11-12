@@ -1,16 +1,16 @@
-import { Router, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import Register from "../Pages.jsx/Register"
 import SignUp from "../Pages.jsx/SignUp"
 import Home from "../Pages.jsx/Home"
 
-function NavRoutes(){
+function NavRouter(){
 
     return(
 <Routes>
-<Router path="/" element={<Home />}/>
-<Router  path="/register" element={<Register/>}/>
-<Router path="SignUp" element={<SignUp/>}/>
+<Route path="/" element={<Home />}/>
+<Route  path="/register" element={<Register/>}/>
+<Route path="SignUp" element={<SignUp/>}/>
 </Routes>
     )
 }
-export default NavRoutes
+export default NavRouter
